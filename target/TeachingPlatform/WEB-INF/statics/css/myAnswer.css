@@ -1,0 +1,15 @@
+.answerlogo{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.answerlogo+span{
+    color: red;
+}
+.everyAnswer{
+    position: absolute;
+    top: 0;
+    right: -140px;
+}
+.everyAnswer span{
+  color: red;
+}

@@ -1,0 +1,294 @@
+body{
+    background-color:#F2F2F2 ;
+}
+
+.homeTop{
+    height: 65px;
+    background-color: white;
+    /*兼容其他浏览器*/
+    filter:progid:DXImageTransform.Microsoft.
+    Shadow(color=#909090,direction=120,strength=4);
+    -moz-box-shadow: 0px 0px 8px #909090;
+    -webkit-box-shadow: 0px 0px 8px #909090;
+    box-shadow:0px 0px 8px #909090;
+
+}
+.logo{
+    float: left;
+    margin-left: 60px;
+    height: 70%;
+    width: auto;
+    margin-top: 12px;
+
+}
+.logo span{
+    float: right;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.head{
+    float: right;
+    margin-right: 60px;
+
+    width: 120px;
+    margin-top: 6px;
+    position: relative;
+
+}
+.head span{
+    float: left;
+    font-size: 18px;
+    line-height: 50px;
+    margin-right: 15px;
+}
+.head img{
+    float: right;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #F2F2F2;
+}
+.headInformation{
+
+    width: 100%;
+    height: 100px;
+    margin-top:63px;
+
+    /*兼容其他浏览器*/
+    filter:progid:DXImageTransform.Microsoft.
+    Shadow(color=#909090,direction=120,strength=4);
+    -moz-box-shadow: 0px 0px 5px #909090;
+    -webkit-box-shadow: 0px 0px 5px #909090;
+    box-shadow:0px 0px 5px #909090;
+    background-color: white;
+}
+.headInformationUl {
+     margin: 0;
+    padding: 0;
+
+}
+.headInformationUl img{
+    float: left;
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+
+}
+.headInformation  li{
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    line-height: 40px;
+    width: 100%;
+}
+.headInformation li:hover{
+    background-color: #F6F6F6;
+}
+.bodyTitle{
+    width: 68%;
+    height: 40px;
+    margin-left: 16%;
+    margin-top: 40px;
+}
+.bodyTitle span{
+    font-size: 15px;
+    line-height: 40px;
+}
+.bodyTitle img{
+    width: 20px;
+    height: 20px;
+}
+.myBody{
+    position: relative;
+    width: 68%;
+    margin-left: 16%;
+    background-color: white;
+    height: 1000px;
+}
+.myBodyTitle{
+    height: 55px;
+    border-bottom:1px solid #D4D4D4;
+}
+.myBodyTitle ul{
+    margin-left: 10px;
+    width: 230px;
+}
+.myBodyTitle ul li{
+    height: 100%;
+    margin-right: 20px;
+    cursor:pointer;
+}
+li{
+    list-style-type:none;
+}
+.selectList{
+    float: left;
+    font-size: 22px;
+    font-weight:900;
+    line-height: 55px;
+    position: relative;
+}
+.noselectList{
+    float: left;
+    font-size: 17px;
+    line-height: 55px;
+    color: #D4D4D4;
+    position: relative;
+}
+.border{
+    position: absolute;
+    width: 48px;
+    height: 2px;
+    border: 2px solid #639CFF;
+    bottom: -3px;
+    left: 9px;
+}
+.myTestList{
+    width: 94%;
+    margin-left:3%;
+    height: 120px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.testImg{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #F7F9FE;
+}
+.testImg img{
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+}
+.testRight{
+    font-size: 12px;
+    float: left;
+    margin-left: 30px;
+    color: #777;
+}
+.testRight div:first-child{
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.testRight div:last-child{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.testGrade{
+    display: inline-block;
+    margin-left: 200px;
+}
+.testTeacher{
+    display: inline-block;
+    margin-left: 100px;
+}
+.testButton{
+    float: right;
+}
+button{
+    margin-top: 10px;
+    background-color: #3D84FF;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+}
+.myTestGrade{
+    margin-top: 10px;
+    text-align:right;
+    color: #3D84FF;
+    font-size: 25px;
+}
+.myTestGradeText{
+    margin-top: 10px;
+    color: #aaa;
+    text-align:right;
+    font-size: 13px
+}
+.myGrade{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align:right;
+}
+.mymodal{
+    margin-top: 25px;
+}
+.mymodal div:first-child{
+    text-align: right;
+}
+.mymodal div:nth-child(2){
+    text-align: left;
+}
+.up_information{
+    position: relative;
+}
+
+.reg_spInfor{
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    top: 0;
+    right: 15px;
+
+}
+.navigationDiv{
+    width: 250px;
+    position: absolute;
+    top: -10px;
+    right: -270px;
+}
+.bubbleTail{
+    float: right;
+    margin-top: 33px;
+    width:16px;
+    height:16px;
+    border-width:0;
+    border-style:solid;
+    border-color:transparent;
+    border-bottom-width:10px;
+    border-bottom-color: currentColor;
+    border-radius:0 0 0 32px;
+    color:white;
+}
+.navigation{
+    float: right;
+    width: 140px;
+    height: 200px;
+    background-color: white;
+    margin-right: 24px;
+    margin-top: 4px;
+    border-radius:19%;
+}
+.navigation ul{
+    margin: 20px;
+    padding: 0;
+    margin-left: 25px;
+    width: 110px;
+}
+.navigation ul li{
+    height: 50px;
+    margin-right: 10px;
+    cursor:pointer;
+    line-height: 50px;
+}
+.navigation li:hover{
+    background-color: #F6F6F6;
+}
+.foot-style
+{
+    bottom:0;
+    width: 100%;
+    height: 25px;
+    color: #999;
+    font-size: 10px;
+    text-align: center;
+    line-height: 25px;
+}
